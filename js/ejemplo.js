@@ -2,7 +2,7 @@ function calculate() {
     const number1 = document.querySelector('#number1').valueAsNumber
     const number2 = document.querySelector('#number2').valueAsNumber
     const operation = document.querySelector('#operation').value
-    let result = 0
+    let result = ''
 
     switch (operation) {
         //parseInt --> para cambiar de texto a numero
