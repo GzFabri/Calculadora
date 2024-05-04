@@ -3,8 +3,6 @@ function calculate() {
     const number2 = document.querySelector('#number2').valueAsNumber
     const operation = document.querySelector('#operation').value
     let result = 0
-    
-
 
     switch (operation) {
         //parseInt --> para cambiar de texto a numero
@@ -14,6 +12,12 @@ function calculate() {
             break;
         case '-':
             result = number1 - number2
+            break;
+        case '*':
+            result = number1 * number2
+            break;
+        case '/':
+            result = number1 / number2
             break;
     }
 
